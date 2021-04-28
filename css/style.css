@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+  font-size: 5.625rem; /* 16px = 100% = 1em */
+}
+
+h2 {
+line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  margin: 0;
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+
+}
+
+.profile {
+  color: #40514E;
+  width: 50%;
+  margin: auto;
+
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.website-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.sales-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-img {
+  width: 25%;
+}
+
+.top-container {
+  background-color: #DDFFF7;
+  margin: 0;
+  padding-top: 100px;
+  position: relative;
+}
+
+.cloud-1 {
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: 350px;
+  bottom: 300px;
+}
+
+.middle-contanier {
+  padding: 100px 0;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px auto;
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin: 0;
+  padding: 50px 0px 20px;
+  color: #EAF6F6;
+}
+
+.footer-link {
+  display: inline;
+  padding: 0 50px;
+  font-family: 'Merriweather', serif;
+}
+
+.copyright {
+  color: #EAF6F6;
+  padding: 20px 0;
+  font-size: .75rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#66BFBF;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+  margin-top: 50px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
